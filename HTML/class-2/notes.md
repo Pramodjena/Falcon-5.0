@@ -74,3 +74,9 @@ Create a simple HTML page with the following elements :
 - Make a MCQ question format
 - Add your friend list in Un-order list
 - Make a table of data (name, age, city, gender, college)
+
+## Semantic Tags :
+
+- Semantic tag is clearly describe a human and machine readable way.
+- It is used to define different parts of an HTML document.
+- It is used for SEO purpose.
