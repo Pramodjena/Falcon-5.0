@@ -1,0 +1,28 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img {
+  border: 5px solid white;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+button a {
+  font-size: 30px;
+  text-decoration: none;
+}
