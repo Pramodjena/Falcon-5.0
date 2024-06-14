@@ -1,0 +1,55 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-image: url(https://www.odiaweb.in/wp-content/uploads/2016/06/Raja-Sankranti-2016-Wishes.jpg);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: darkblue;
+  letter-spacing: 5px;
+  text-decoration: underline;
+}
+
+.typography {
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: darkblue;
+  position: absolute;
+  top: 50%;
+  text-shadow: blue 0px 0px 39px;
+  animation: typo 5s infinite;
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.typography::after {
+  content: "🌻";
+}
+
+.typography::before {
+  content: "🌻";
+}
+
+@keyframes typo {
+  0% {
+    left: 0;
+    color: darkblue;
+  }
+  50% {
+    left: calc(100% - 200px);
+    color: red;
+  }
+  100% {
+    left: 0;
+    color: darkblue;
+  }
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+  height: 100vh;
+  position: relative;
+}
+
+button {
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  display: block;
+  padding: 10px 30px;
+  font-size: 30px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 5px solid red;
+  transition: 2s ease-in-out;
+}
+
+button:hover {
+  background-color: yellowgreen;
+  transform: scale(1.5);
+  transform: rotate(180deg);
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.animated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  border-bottom: 3px solid white;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  animation: boxAnimation 5s infinite;
+}
+
+@keyframes boxAnimation {
+  0% {
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    left: calc(100%-100px);
+    transform: rotate(180deg);
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+  100% {
+    left: 0;
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
